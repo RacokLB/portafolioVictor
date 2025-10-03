@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Portafolio de Victor D. José Batista Rojas, desarrollador full stack. Feed de proyectos y posts." />
+    <meta name="author" content="Victor D. José Batista Rojas" />
+    <title>Victor D´José Batista Rojas | Feed</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        :root {
+            --x-border-color: #e8e8e8;
+            --x-primary-color: #1DA1F2; /* Azul de X/Twitter */
+        }
+        
+        body {
+            background-color: #f7f9f9; /* Fondo suave */
+        }
+
+        /* Estilo para simular el borde del feed */
+        .x-main-column {
+            border-left: 1px solid var(--x-border-color);
+            border-right: 1px solid var(--x-border-color);
+            background-color: #fff;
+            min-height: 100vh; /* Asegura que la columna sea larga */
+        }
+
+        /* Estilo del Post (Proyecto) */
+        .x-post {
+            border-bottom: 1px solid var(--x-border-color);
+            padding: 15px 20px;
+        }
+
+        /* Hover de un post */
+        .x-post:hover {
+            background-color: #f7f9f9;
+            cursor: pointer;
+        }
+
+        /* Diseño del encabezado de la navegación */
+        .navbar {
+            border-bottom: 1px solid var(--x-border-color);
+        }
+
+        /* Contenedor del Carrusel dentro del post */
+        .x-carousel-container {
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-radius: 12px;
+            overflow: hidden; /* Corta las esquinas de la imagen */
+            border: 1px solid var(--x-border-color);
+        }
+        
+        .x-hashtag {
+            color: var(--x-primary-color);
+            font-weight: 500;
+            text-decoration: none;
+            margin-right: 8px;
+        }
+
+        .x-profile-card {
+            border: 1px solid var(--x-border-color);
+            border-radius: 15px;
+            padding: 20px;
+            background-color: #fff;
+            position: sticky;
+            top: 20px; /* Se pega a 20px del borde superior */
+        }
+        
+        /* Icono de X (simulado con un bi-x-circle) */
+        .x-icon {
+            color: #000;
+            font-size: 1.5rem;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
+            <div class="container px-5">
+                <a class="navbar-brand " href="#!"><span class="x-icon bi bi-x-circle"></span><span class="fw-bolder text-primary">Victor D'José</span></a>
+            </div>
+        </nav>
+        
+        <div class="container px-0 px-md-5 py-3">
+            <div class="row justify-content-center">
+                
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="x-profile-card">
+                        <img class="img-fluid rounded-circle mb-3" style="width: 100px; height: 120px;" src="assets/img/fotoPerfil.jpg" alt="Foto de Perfil de Victor">
+                        
+                        <h2 class="h5 fw-bolder mb-0">Victor D'José Batista Rojas</h2>
+                        <p class="text-muted small">@VictorBatistaDev</p>
+                        
+                        <p class="mb-3">
+                            Desarrollador Full Stack & Analista de Datos. Fusionando **Contaduría Pública** con código (**Python, PHP, MySQL**) para automatizar procesos administrativos y financieros. Proactivo y orientado a resultados.
+                            <br><br>
+                            <strong>¡Nivel de Ingles A2!</strong>
+                        </p>
+                        
+                        
+                        <div class="d-flex small text-muted">
+                            <span class="me-3"><i class="bi bi-geo-alt-fill me-1"></i>Caracas, Venezuela</span>
+                            <span class="me-3"><i class="bi bi-calendar-fill me-1"></i>Desde Abril del 2024 (como Developer) </span>
+                        </div>
+                        <div class="mt-3 small">
+                            <a href="assets/CurriculumVictor.pdf" download class="text-primary me-4 fw-bold">
+                                <i class="bi bi-paperclip me-1"></i> Descargar CV
+                            </a>
+                            
+                            <a href="#" data-bs-toggle="collapse" data-bs-target="#contactoInfo" aria-expanded="false" aria-controls="contactoInfo" class="text-primary fw-bold">
+                                <i class="bi bi-person-lines-fill me-1"></i> Datos de Contacto
+                            </a>
+                        </div>
+                        <div class="collapse mt-2" id="contactoInfo">
+                            <p class="mb-0 text-muted ">
+                                <i class="bi bi-envelope-fill me-1"></i> **Email:** inversionesLowBoy@gmail.com
+                                <br>
+                                <i class="bi bi-telephone-fill me-1"></i> **Teléfono:** +58 424-288-5368
+                                <br>
+                                <i class="bi bi-geo-alt-fill me-1"></i> **Ubicación:** Caracas, Venezuela
+                            </p>
+                        </div>
+                        <div class="mt-3">
+                            <a href="https://www.linkedin.com/in/victordjosebatistarojas" target="_blank" class="text-primary me-3 fs-5"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/tu-usuario-github" target="_blank" class="text-primary fs-5"><i class="fab fa-github"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-8 x-main-column">
+                    
+                    <div class="p-3">
+                        <h2 class="h5 fw-bolder mb-0">📌 Publicaciones fijadas (Proyectos Destacados)</h2>
+                    </div>
+
+                    <div class="x-post" id="post-automatizacion-correspondencia">
+                        <div class="d-flex align-items-start">
+                            <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
+                            <div>
+                                <p class="mb-1">
+                                    <span class="fw-bolder me-1">Victor D'José Batista Rojas</span>
+                                    <span class="text-muted">@VictorBatistaDev · Just Now</span>
+                                </p>
+                                <p class="mb-3">
+                                    <strong>¡El futuro de RRHH es AUTOMÁTICO! 🤖 Acabo de implementar un workflow que usa IA para clasificar correos.</strong>
+                                    <br><br>
+                                    Desarrollé la **Automatización Inteligente del Flujo de Correspondencia** para la Dirección de Talento Humano del CNE. El objetivo: eliminar la clasificación manual de documentos.
+                                    <br><br>
+                                    ➡️ **El Flujo:** Recibe documentos (PDF/JPG) → **Python** extrae el texto (OCR) → El modelo **Ollama 3.8B** lee y clasifica el destinatario → **n8n** lo recibe y envía al correo correcto. ¡Todo en segundos!
+                                    <br><br>
+                                    ✅ **Impacto Clave:** Logré una **Mejora Operativa del 73%**. Pasamos de un tiempo de gestión de **15 minutos** por documento a **solo 4 minutos**, asegurando una distribución precisa. ¡La IA simplificando la burocracia!
+                                </p>
+
+                                <div class="x-carousel-container ratio ratio-16x9">
+                                    <img src="ruta/a/imagen/simulando/workflow-ia.jpg" class="d-block w-100" alt="Flujo de trabajo n8n con IA">
+                                </div>
+
+                                <div class="mt-2">
+                                    <a href="#" class="x-hashtag">#Automatizacion</a>
+                                    <a href="#" class="x-hashtag">#InteligenciaArtificial</a>
+                                    <a href="#" class="x-hashtag">#Python</a>
+                                    <a href="#" class="x-hashtag">#n8n</a>
+                                    <a href="#" class="x-hashtag">#Ollama</a>
+                                    <a href="#" class="x-hashtag">#RRHH</a>
+                                </div>
+
+                                <div class="mt-3 small text-muted">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <div class="x-post" id="post-separador-nombres">
+                        <div class="d-flex align-items-start">
+                            <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
+                            <div>
+                                <p class="mb-1">
+                                    <span class="fw-bolder me-1">Victor D'José Batista Rojas</span>
+                                    <span class="text-muted">@VictorBatistaDev · 1h</span>
+                                </p>
+                                <p class="mb-3">
+                                    <strong>¡Ahorrando tiempo a RRHH! ⏱️ Acabo de lanzar una herramienta simple pero PODEROSA.</strong>
+                                    <br><br>
+                                    Desarrollé una aplicación en **Streamlit** que automatiza la limpieza y preparación de data para el departamento de RRHH del Consejo Nacional Electoral.
+                                    <br><br>
+                                    ➡️ **El Desafío:** Tomar un Excel (columna `NOMBRE_COMPLETO`) y separar automáticamente los nombres y apellidos, manejando reglas complejas del idioma (como "de la Cruz", "de los Anegeles", etc.).
+                                    <br><br>
+                                    ✅ **La Solución:** Usando **Python** y **Pandas**, transformamos un proceso que tomaba horas en una tarea de **segundos**. Sube el archivo, y obtienes la data lista para usar. ¡Cero errores manuales!
+                                </p>
+
+                                <div class="x-carousel-container ratio ratio-16x9">
+                                    <div id="carouselPost0" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/separadorNombreCorrecto.png" class="d-block w-100" alt="Carga de Excel en la app Streamlit">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/separadorNombreCorrecto1.png" class="d-block w-100" alt="Vista previa de nombres y apellidos separados correctamente">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/separadorNombreCorrecto2.png" class="d-block w-100" alt="Pantalla de descarga del archivo Excel procesado">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPost0" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPost0" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+                                    </div>
+                                </div>
+
+                                <div class="mt-2">
+                                    <a href="#" class="x-hashtag">#Python</a>
+                                    <a href="#" class="x-hashtag">#Streamlit</a>
+                                    <a href="#" class="x-hashtag">#Pandas</a>
+                                    <a href="#" class="x-hashtag">#DataEngineering</a>
+                                    <a href="#" class="x-hashtag">#Automatizacion</a>
+                                    <a href="#" class="x-hashtag">#RRHH</a>
+                                </div>
+
+                                <div class="mt-3 small text-muted">
+                                    <i class="bi bi-chat me-4"></i> 
+                                    <i class="bi bi-arrow-repeat me-4"></i>
+                                    <i class="bi bi-heart me-4"></i>
+                                    <a href="https://github.com/tu-usuario/separador-nombres" target="_blank" class="text-muted"><i class="bi bi-github me-1"></i> Ver Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="x-post" id="post-inventario-ia">
+                        <div class="d-flex align-items-start">
+                            <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
+                            <div>
+                                <p class="mb-1">
+                                    <span class="fw-bolder me-1">Victor D'José Batista Rojas</span>
+                                    <span class="text-muted">@VictorBatistaDev · 3d</span>
+                                </p>
+                                <p class="mb-3">
+                                    <strong>🚨 ¡INVENTARIO 2.0 CON IA! 🚨 El proyecto de gestión de autopartes acaba de recibir una inyección de inteligencia.</strong>
+                                    <br><br>
+                                    He integrado la **API de Gemini** para crear un **"Mecánico Virtual"** que revoluciona el soporte al cliente.
+                                    <br>
+                                    ➡️ **Impacto Inmediato:** Se redujo el tiempo de respuesta a consultas de clientes en un impresionante **40%**. ¡Asistencia experta, instantánea!
+                                    <br><br>
+                                    🛠️ **El Stack Full-Stack:**
+                                    <br>
+                                    * **Backend Robusto:** Desarrollado con **Python** y **Flask** para manejar la lógica del negocio y el almacenamiento de datos en **MySQL**.
+                                    * **Frontend Intuitivo:** Una interfaz rápida y amigable, construida con **Bootstrap** y **JavaScript** para una excelente experiencia de usuario.
+                                    <br><br>
+                                    Un sistema completo que optimiza inventario y redefine la atención al cliente con el poder de la Inteligencia Artificial.
+                                </p>
+
+                                <div class="x-carousel-container ratio ratio-16x9">
+                                    <div id="carouselPost1" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/inicioSesionProyectoRoberth.png" class="d-block w-100" alt="Inicio de Sesión del Sistema de Inventario">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/pantallaInicioProyectoRoberth.png" class="d-block w-100" alt="Dashboard de Inicio del Sistema">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/graficoTasasCambioProyectoRoberth.png" class="d-block w-100" alt="Gráfico Histórico de Tasa de Cambio">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/metricasProyectoRoberth.png" class="d-block w-100" alt="Métricas Clave de Rendimiento">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/indicadoresRendimientoProyectoRoberth.png" class="d-block w-100" alt="Indicadores de Rotación y Stock">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/detalleCompraProyectoRoberth1.png" class="d-block w-100" alt="Detalle de Compras y Proveedores">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/detalleVentaProyectoRoberth2.png" class="d-block w-100" alt="Detalle de Ventas y Clientes">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/consultaGeminiProyectoRoberth.png" class="d-block w-100" alt="Interfaz del Chatbot de IA Gemini para Consultas">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPost1" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPost1" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+                                    </div>
+                                </div>
+                                <div class="mt-2">
+                                    <a href="#" class="x-hashtag">#Python</a>
+                                    <a href="#" class="x-hashtag">#Flask</a>
+                                    <a href="#" class="x-hashtag">#GeminiAPI</a>
+                                    <a href="#" class="x-hashtag">#FullStack</a>
+                                    <a href="#" class="x-hashtag">#AI</a>
+                                    <a href="#" class="x-hashtag">#Inventario</a>
+                                </div>
+                                <div class="mt-3 small text-muted">
+                                    <i class="bi bi-chat me-4"></i> 
+                                    <i class="bi bi-arrow-repeat me-4"></i>
+                                    <i class="bi bi-heart me-4"></i>
+                                    <a href="https://github.com/" target="_blank" class="text-muted"><i class="bi bi-github me-1"></i> Ver Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="x-post" id="post-trading-bot">
+                        <div class="d-flex align-items-start">
+                            <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
+                            <div>
+                                <p class="mb-1">
+                                    <span class="fw-bolder me-1">Victor D'José Batista Rojas</span>
+                                    <span class="text-muted">@VictorBatistaDev · 1w</span>
+                                </p>
+                                <p class="mb-3">
+                                    El poder de **Pandas** y **Python** aplicado a finanzas: desarrollé un bot de Backtesting para MT5. Logro: demostró que una estrategia de trading NO era rentable, salvando a mi cliente de pérdidas significativas. La data no miente. 📊
+                                </p>
+                                <div class="x-carousel-container ratio ratio-1x1">
+                                    <div id="carouselPost2" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/reporteBotTrading.jpg" class="d-block w-100" alt="Gráfico de Backtesting">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/reporteBotTrading1.jpg" class="d-block w-100" alt="MT5 Data Fetch">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <video class="d-block w-100 rounded" controls autoplay muted loop playsinline>
+                                                    <source src="assets/videos/videoBotTrading.mp4" type="video/mp4">
+                                                    Tu navegador no soporta la etiqueta de video.
+                                                </video>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPost2" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPost2" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-2">
+                                    <a href="#" class="x-hashtag">#Python</a>
+                                    <a href="#" class="x-hashtag">#Trading</a>
+                                    <a href="#" class="x-hashtag">#Fintech</a>
+                                    <a href="#" class="x-hashtag">#DataScience</a>
+                                </div>
+                                
+                                <div class="mt-3 small text-muted">
+                                    <i class="bi bi-chat me-4"></i> 
+                                    <i class="bi bi-arrow-repeat me-4"></i>
+                                    <i class="bi bi-heart me-4"></i>
+                                    <a href="https://github.com/tu-usuario/" target="_blank" class="text-muted"><i class="bi bi-github me-1"></i> Ver Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="x-post" id="post-gestion-medica">
+                        <div class="d-flex align-items-start">
+                            <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
+                            <div>
+                                <p class="mb-1">
+                                    <span class="fw-bolder me-1">Victor D'José Batista Rojas</span>
+                                    <span class="text-muted">@VictorBatistaDev · 1w</span>
+                                </p>
+                                <p class="mb-3">
+                                    <strong>¡Misión cumplida! 💾 El nuevo Sistema de Gestión Clínica para el servicio médico ya está LISTO.</strong>
+                                    <br><br>
+                                    Desarrollé una aplicación web robusta y completa usando <strong>PHP, MySQL, Bootstrap y JavaScript</strong> que transforma por completo el registro de pacientes.
+                                    <br><br>
+                                    ¿El resultado? La data cruda se convierte en <strong>métricas de rendimiento</strong> que la directiva utiliza para una toma de decisiones más inteligente y para medir la eficiencia del servicio.
+                                    <br><br>
+                                    ✨ <strong>El Gran Plus:</strong> Estoy integrando un <strong>Agente Médico</strong> impulsado por el LLM <strong>llama 3.8b</strong>. Este agente se nutre del historial clínico para ofrecer al doctor <strong>sugerencias de diagnóstico y pronóstico</strong>, llevando el soporte médico a otro nivel.
+                                    <br><br>
+                                    Un proyecto full-stack con un impacto directo en la salud operacional.
+                                </p>
+
+                                <div class="x-carousel-container ratio ratio-16x9">
+                                    <div id="carouselPost3" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/inicioSesionFTTC.png" class="d-block w-100" alt="INICIO DE SESION">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/tablaSeleccionTrabajadoresFTTC.png" class="d-block w-100" alt="Tabla seleccion de trabajadores">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/metricasFechaFTTC.png" class="d-block w-100" alt="Dashboard con metricas mensuales y filtrado por fecha">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/metricasDiariasFTTC.png" class="d-block w-100" alt="Dashboard con metricas diarias">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/reporteGraficoFTTC.png" class="d-block w-100" alt="Reportes Graficos generales con filtrado por fecha">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPost3" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPost3" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+                                    </div>
+                                </div>
+
+                                <div class="mt-2">
+                                    <a href="#" class="x-hashtag">#PHP</a>
+                                    <a href="#" class="x-hashtag">#MySQL</a>
+                                    <a href="#" class="x-hashtag">#FullStack</a>
+                                    <a href="#" class="x-hashtag">#Ollama</a>
+                                    <a href="#" class="x-hashtag">#LLM</a>
+                                    <a href="#" class="x-hashtag">#DataDriven</a>
+                                    <a href="#" class="x-hashtag">#SaludDigital</a>
+                                </div>
+                                <!-- Íconos de Interacción -->
+                                <div class="mt-3 small text-muted">
+                                    <i class="bi bi-chat me-4"></i> 
+                                    <i class="bi bi-arrow-repeat me-4"></i>
+                                    <i class="bi bi-heart me-4"></i>
+                                    <a href="https://github.com/tu-usuario/" target="_blank" class="text-muted"><i class="bi bi-github me-1"></i> Ver Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                                <!-- INICIO DEL POST: GESTIÓN DE PERSONAL Y MÉDICA -->
+                    <div class="x-post" id="post-gestion-funcionarios">
+                        <div class="d-flex align-items-start">
+                            <!-- Foto de Perfil (usando ruta local con fallback) -->
+                            <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
+                            <div>
+                                <p class="mb-1">
+                                    <span class="fw-bolder me-1">Victor D'José Batista Rojas</span>
+                                    <span class="text-muted">@VictorBatistaDev · 1w</span>
+                                </p>
+                                <p class="mb-3">
+                                    <!-- Contenido adaptado para post -->
+                                    <strong>¡Transformación Digital Full-Stack! 🏥 Lanzamiento de un Sistema de Gestión de Funcionarios robusto.</strong>
+                                    <br><br>
+                                    Este proyecto en **PHP y MySQL** centraliza y organiza la data de personal con un enfoque en usabilidad y precisión:
+                                    <br><br>
+                                    ⚙️ **Carga Inteligente:** Implementé un formulario **multi-paso (6 etapas)** con barra de progreso y validación en cada sección (Identificación, Personal, Laboral, etc.), ¡asegurando datos limpios desde el origen!
+                                    <br><br>
+                                    👨‍👩‍👧‍👦 **Gestión de Relaciones:** Desarrollé un módulo Modal dinámico para el registro instantáneo de familiares/parientes, utilizando manejo avanzado de arrays (`parientesArray`) para asociar la data correctamente.
+                                    <br><br>
+                                    📊 **Reportes 360° al Instante:** Creé tres módulos de consulta (Registros, Estadísticas por Sede, Personal & Parientes) accesibles vía modales, ofreciendo una visión **Data-Driven** sin esperas.
+                                </p>
+
+                                <!-- Carrusel de Imágenes (usando los placeholders del snippet) -->
+                                <div class="x-carousel-container ratio ratio-16x9">
+                                    <div id="carouselPost4" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselPost4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselPost4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselPost4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselPost4" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/inicioSesionProyectoCNE.png" class="d-block w-100" alt="Dashboard con Métricas Médicas">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/tablaSeleccionTrabajadoresCneProyecto.png" class="d-block w-100" alt="Gráfico de Atenciones por Especialidad">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/parientesDGTH.png" class="d-block w-100" alt="Interfaz de Sugerencias LLM">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/formularioDGTH1.png" class="d-block w-100" alt="Interfaz de Sugerencias LLM">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPost4" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPost4" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+                                    </div>
+                                </div>
+
+                                <!-- Hashtags -->
+                                <div class="mt-2">
+                                    <a href="#" class="x-hashtag">#PHP</a>
+                                    <a href="#" class="x-hashtag">#MySQL</a>
+                                    <a href="#" class="x-hashtag">#FullStack</a>
+                                    <a href="#" class="x-hashtag">#Javascript</a>
+                                    <a href="#" class="x-hashtag">#CNE</a>
+                                    <a href="#" class="x-hashtag">#DataDriven</a>
+                                    <a href="#" class="x-hashtag">#SaludDigital</a>
+                                </div>
+
+                                <!-- Íconos de Interacción -->
+                                <div class="mt-3 small text-muted">
+                                    <i class="bi bi-chat me-4"></i> 
+                                    <i class="bi bi-arrow-repeat me-4"></i>
+                                    <i class="bi bi-heart me-4"></i>
+                                    <a href="https://github.com/tu-usuario/" target="_blank" class="text-muted"><i class="bi bi-github me-1"></i> Ver Código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN DEL POST -->
+                    <div class="x-post text-center text-muted small py-4">
+                        Fin del Feed. ¿Quieres ver mi perfil completo?
+                        <a href="resume.html" class="x-hashtag d-block mt-2">Ver Currículum (PDF/Web)</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bolder mb-4">Trabajemos Juntos</h2>
+                    <p class="lead mb-5">Estoy listo para crear soluciones que impulsen el crecimiento y la eficiencia.</p>
+                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="mailto:inversioneslowboy@gmail.com">Envíame un Correo</a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="bg-light py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto"><div class="small m-0">Copyright &copy; 2025 Victor D. José Batista Rojas.</div></div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacidad</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Términos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
