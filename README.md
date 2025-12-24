@@ -1,16 +1,14 @@
 # portafolioVictor
 
-# Victor D'José Batista Rojas | Desarrollador Full Stack & Automatizador de Procesos
+AUTOMATION & FULL STACK ENGINEER Especialista en Optimización de Procesos (Finanzas/RRHH) | Python (Flask), N8N & Gemini API
 
-¡Hola! Soy Victor D'José, un profesional híbrido que fusiona la lógica de la **Contaduría Pública** con el poder del código. Mi enfoque se centra en el **análisis de datos** y la **automatización de procesos administrativos y financieros** para transformar problemas de negocio en soluciones de software eficientes.
-
-Actualmente, me especializo en desarrollar soluciones **Full Stack** robustas e integrar la **Inteligencia Artificial** (Ollama, Gemini API) en flujos de trabajo críticos.
+Ingeniero Full Stack y Automatizador de Procesos con un background único en análisis de negocios y financiero (Contaduría Pública). Actualmente cursando Ingeniería en Sistemas, mi valor principal reside en identificar cuellos de botella administrativos o financieros y traducirlos directamente en soluciones de software robustas (Python/Flask, PHP, MySQL) y flujos de trabajo inteligentes (n8n, Gemini API).
 
 ---
 
 ## 🛠️ Tecnologías y Habilidades Clave
 
-Mi stack se centra en herramientas que permiten la construcción rápida de backends, la manipulación avanzada de datos y la automatización de flujos de trabajo complejos.
+Mi enfoque es generar valor cuantificable y tangible mediante la automatización de procesos clave, optimizando resultados y eficiencias operativas
 
 | Categoría | Tecnologías Específicas |
 | :--- | :--- |
@@ -22,41 +20,41 @@ Mi stack se centra en herramientas que permiten la construcción rápida de back
 
 ---
 
-## 🚀 Proyectos Destacados (Mi "Feed" de Innovación)
+PROGRAMADOR JUNIOR (RRHH & Automatización) Consejo Nacional Electoral (CNE), Caracas | abril 2024 - presente
 
-A continuación, se presentan algunos proyectos clave que demuestran mi capacidad para resolver problemas de negocio con tecnología, con un enfoque en la eficiencia y la reducción de errores manuales.
+Lideré la creación y el mantenimiento de la lógica backend (PHP y MySQL, arquitectura MVC) para sistemas de registro de personal.
+Logro Cuantificable: Reduje el tiempo de registro manual de 1.2 horas a solo 6 minutos y disminuí los errores manuales en un 80%.
+Desarrollé scripts en Python (Pandas, Streamlit) para la limpieza y estructuración de data crítica de funcionarios, optimizando la gestión de personal.
+Participé en el desarrollo de soluciones de software para la optimización y automatización de procesos internos críticos de RRHH.
 
-### 1. Sistema de Gestión Inteligente de Correspondencia (HR-CNE)
-**Un workflow que utiliza IA para clasificar documentos, llevando la automatización de RRHH al siguiente nivel.**
-* **Objetivo:** Eliminar la clasificación manual de documentos de correspondencia recibida.
-* **Stack:** Python (OCR para extracción de texto), **Ollama 3.8B** (Modelo de Clasificación), **n8n** (Motor de Workflow).
-* **Logro Cuantificable:** **Mejora Operativa del 73%**. Reducción del tiempo de gestión por documento de **15 minutos a solo 4 minutos**.
+ANALISTA DE PROCESOS / PROFESIONAL TÉCNICO ELECTORAL Consejo Nacional Electoral (CNE), Caracas | 2022 - 2024
+Realicé auditoría de registros contables y análisis de procesos manuales para identificar cuellos de botella y áreas de riesgo.
+Utilicé mi conocimiento contable para identificar las necesidades críticas de automatización en los flujos de trabajo administrativos, sentando las bases para proyectos de desarrollo posteriores.
+Impacto Híbrido: Apliqué mis conocimientos técnicos y contables en el desarrollo del sistema SICOFPE (declaración de ingresos y gastos de actores políticos) para asegurar la integridad de los datos y el cumplimiento normativo.
+PROYECTOS DESTACADOS
 
-### 2. Sistema Full-Stack de Inventario y Chatbot con IA
-**Sistema de gestión de inventario para autopartes con un "Mecánico Virtual" integrado.**
-* **Objetivo:** Optimizar el inventario y proporcionar soporte al cliente instantáneo y experto.
-* **Stack:** **Python (Flask)**, MySQL, Bootstrap, JavaScript, **API de Gemini** (para el chatbot de consultas técnicas).
-* **Logro Cuantificable:** **Aumento del 40% en la eficiencia de atención al cliente**, gracias a las respuestas instantáneas del Chatbot.
-* **[Ver Código](https://github.com/RacokLB/nombre-del-repo-inventario)** 
+***Asistente de Soporte Inteligente (Chatbot Telegram)
+Descripción: Creación de un workflow completo en n8n que usa la API de Google Gemini para un chatbot conversacional con capacidades avanzadas de RAG (Retrieval-Augmented Generation) y escalamiento a humano.
+Arquitectura: n8n, Google Gemini API (gemini-2.5-flash), AI Agent, Simple Vector Store (para conocimiento empresarial), y lógica condicional para el enrutamiento y la notificación por email del equipo de soporte.
+Impacto: Sustitución de un servicio local (Ollama) por un servicio en la nube (Gemini), asegurando escalabilidad, alta disponibilidad y cero latencia en la respuesta de soporte.
 
-### 3. Herramienta de Limpieza de Data para Nómina (Streamlit)
-**Aplicación web para estandarizar y separar nombres y apellidos complejos en segundos.**
-* **Objetivo:** Automatizar la limpieza y preparación de grandes volúmenes de data de funcionarios (columna `NOMBRE_COMPLETO`) para el departamento de nóminas.
-* **Stack:** **Python**, **Pandas** (manipulación de datos), **Streamlit** (Interfaz de usuario).
-* **Logro Cuantificable:** Proceso que tomaba horas se completó en **segundos**, eliminando errores manuales y asegurando la integridad de la data para RRHH.
-* **[Ver Código](https://github.com/RacokLB/separador-nombres)**  
+***Automatización Inteligente del Flujo de Correspondencia (HR-CNE)
+Workflow desarrollado con n8n y Python (OCR) que utiliza el LLM llama3:8B para clasificar y distribuir la correspondencia automáticamente.
+Logro: Mejora Operativa del 73%, reduciendo el tiempo de gestión de 15 minutos a solo 4 minutos por documento.
 
-### 4. Bot de Backtesting Financiero (Fintech)
-**Herramienta de análisis de datos para validar la rentabilidad de estrategias de trading en MT5.**
-* **Objetivo:** Proporcionar un análisis riguroso, basado en datos históricos, sobre la viabilidad de estrategias de inversión.
-* **Stack:** **Python**, **Pandas**, `backtesting.py`, MetaTrader 5 (MT5).
-* **Resultado:** Mitigación de riesgos y **prevención de pérdidas financieras significativas** al demostrar la no rentabilidad de una estrategia propuesta.
+***Gestión de Inventario y Consultas con IA (Autopartes)
+Aplicación Full Stack (Flask y MySQL) que integra la API de Gemini para automatizar consultas técnicas de clientes.
+Incluye Diseño, Desarrollo, Contenerización con Docker y Despliegue en la nube (PaaS) con pipeline CI/CD.
+Logro: Aumentó la eficiencia en la atención al cliente en un 40%.
 
-### 5. Sistema de Gestión Clínica y de Funcionarios (PHP/MySQL)
-**Dos sistemas Full-Stack para gestión de personal y salud operacional.**
-* **Tecnologías:** **PHP**, **MySQL**, Bootstrap, JavaScript.
-* **Características:** Formularios multi-paso de 6 etapas con validación estricta (Gestión de Funcionarios) y Dashboards para la generación de métricas de rendimiento (Gestión Clínica).
-* **Innovación:** Integración planificada de un **Agente Médico** con LLM (`llama 3.8b`) para sugerencias de diagnóstico y pronóstico.
+***Sistema de Gestión de Funcionarios (PHP/MySQL)
+Aplicación robusta que centraliza y organiza data de personal y parientes, enfocada en la integridad de datos y precisión.
+Logro: Disminución del tiempo de registro de 34 minutos a tan solo 5 minutos.
+
+***Separador de Nombres y Apellidos Complejos
+Aplicación web creada y desplegada en Streamlit para automatizar la limpieza y preparación de data para el departamento de nóminas.
+Logro: Disminuyó el tiempo de limpieza manual de 3 horas (para 2000 registros) a solo 12 segundos
+
 
 ---
 
