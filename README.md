@@ -33,40 +33,40 @@ Utilicé mi conocimiento contable para identificar las necesidades críticas de 
 Impacto Híbrido: Apliqué mis conocimientos técnicos y contables en el desarrollo del sistema SICOFPE (declaración de ingresos y gastos de actores políticos) para asegurar la integridad de los datos y el cumplimiento normativo.
 PROYECTOS DESTACADOS
 
-***Asistente de Soporte Inteligente (Chatbot Telegram)
+Asistente de Soporte Inteligente (Chatbot Telegram)
 Descripción: Creación de un workflow completo en n8n que usa la API de Google Gemini para un chatbot conversacional con capacidades avanzadas de RAG (Retrieval-Augmented Generation) y escalamiento a humano.
 Arquitectura: n8n, Google Gemini API (gemini-2.5-flash), AI Agent, Simple Vector Store (para conocimiento empresarial), y lógica condicional para el enrutamiento y la notificación por email del equipo de soporte.
 Impacto: Sustitución de un servicio local (Ollama) por un servicio en la nube (Gemini), asegurando escalabilidad, alta disponibilidad y cero latencia en la respuesta de soporte.
 
-***Automatización Inteligente del Flujo de Correspondencia (HR-CNE)
+Automatización Inteligente del Flujo de Correspondencia (HR-CNE)
 Workflow desarrollado con n8n y Python (OCR) que utiliza el LLM llama3:8B para clasificar y distribuir la correspondencia automáticamente.
 Logro: Mejora Operativa del 73%, reduciendo el tiempo de gestión de 15 minutos a solo 4 minutos por documento.
 
-***Gestión de Inventario y Consultas con IA (Autopartes)
+Gestión de Inventario y Consultas con IA (Autopartes)
 Aplicación Full Stack (Flask y MySQL) que integra la API de Gemini para automatizar consultas técnicas de clientes.
 Incluye Diseño, Desarrollo, Contenerización con Docker y Despliegue en la nube (PaaS) con pipeline CI/CD.
 Logro: Aumentó la eficiencia en la atención al cliente en un 40%.
 
-***Sistema de Gestión de Funcionarios (PHP/MySQL)
+Sistema de Gestión de Funcionarios (PHP/MySQL)
 Aplicación robusta que centraliza y organiza data de personal y parientes, enfocada en la integridad de datos y precisión.
 Logro: Disminución del tiempo de registro de 34 minutos a tan solo 5 minutos.
 
-***Separador de Nombres y Apellidos Complejos
+Separador de Nombres y Apellidos Complejos
 Aplicación web creada y desplegada en Streamlit para automatizar la limpieza y preparación de data para el departamento de nóminas.
 Logro: Disminuyó el tiempo de limpieza manual de 3 horas (para 2000 registros) a solo 12 segundos
 
 
 ---
 
-## 📞 Contacto y Perfiles
+ 📞 Contacto y Perfiles
 
 Conéctate conmigo o descarga mi CV para más detalles sobre mi experiencia y formación:
 
 | Plataforma | Enlace |
 | :--- | :--- |
-| **LinkedIn** | [Victor D'José Batista Rojas](https://www.linkedin.com/in/victordjosebatistarojas) |
-| **GitHub** | [RacokLB](https://github.com/RacokLB) |
-| **Correo** | `inversionesLowBoy@gmail.com` |
-| **Teléfono** | `+58 424-288-5368` |
-| **Descargar CV** | [Curriculum Victor.pdf](assets/CurriculumVictor.pdf)
+| LinkedIn** | [Victor D'José Batista Rojas](https://www.linkedin.com/in/victordjosebatistarojas) |
+| GitHub** | [RacokLB](https://github.com/RacokLB) |
+| Correo** | `inversionesLowBoy@gmail.com` |
+| Teléfono** | `+58 424-288-5368` |
+| Descargar CV** | [Curriculum Victor.pdf](assets/CurriculumVictor.pdf)
 ```
