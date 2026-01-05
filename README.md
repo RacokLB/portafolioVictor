@@ -12,11 +12,11 @@ Mi enfoque es generar valor cuantificable y tangible mediante la automatización
 
 | Categoría | Tecnologías Específicas |
 | :--- | :--- |
-| **Backend & Core** | **Python**, **PHP**, Flask, MySQL, SQLAlchemy, JavaScript (ES6+) |
-| **Data Science & ML/AI** | **Pandas**, Streamlit, **Gemini API**, **Ollama** (llama 3.8B), OCR, `backtesting.py` |
-| **Automatización** | **n8n** (Workflow Engine), Git, GitHub, Insomnia |
-| **Frontend & UX** | Bootstrap, JQuery, Charts.js |
-| **Negocio & Finanzas** | Contaduría Pública, MetaTrader 5 (MT5), Trading, Fintech |
+| Backend & Core | Python, PHP, Flask, MySQL, SQLAlchemy, JavaScript (ES6+) |
+| Data Science & ML/AI | Pandas, Streamlit, **Gemini API**, Ollama (llama 3.8B), OCR, `backtesting.py` |
+| Automatización | n8n (Workflow Engine), Git, GitHub, Insomnia |
+| Frontend & UX | Bootstrap, JQuery, Charts.js |
+| Negocio & Finanzas | Contaduría Pública, MetaTrader 5 (MT5), Trading, Fintech |
 
 ---
 
@@ -64,9 +64,9 @@ Conéctate conmigo o descarga mi CV para más detalles sobre mi experiencia y fo
 
 | Plataforma | Enlace |
 | :--- | :--- |
-| LinkedIn** | [Victor D'José Batista Rojas](https://www.linkedin.com/in/victordjosebatistarojas) |
-| GitHub** | [RacokLB](https://github.com/RacokLB) |
-| Correo** | `inversionesLowBoy@gmail.com` |
-| Teléfono** | `+58 424-288-5368` |
-| Descargar CV** | [Curriculum Victor.pdf](assets/CurriculumVictor.pdf)
+| LinkedIn | [Victor D'José Batista Rojas](https://www.linkedin.com/in/victordjosebatistarojas) |
+| GitHub | [RacokLB](https://github.com/RacokLB) |
+| Correo | `inversionesLowBoy@gmail.com` |
+| Teléfono | `+58 424-288-5368` |
+| Descargar CV | [Curriculum Victor.pdf](assets/CurriculumVictor.pdf)
 ```
