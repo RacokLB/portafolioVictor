@@ -144,6 +144,59 @@
                     <div class="p-3">
                         <h2 class="h5 fw-bolder mb-0">📌 Publicaciones fijadas (Proyectos Destacados)</h2>
                     </div>
+
+                    <!-- NUEVO POST: AUTOMATIZACIÓN PUNTOS DE CUENTA -->
+                    <div class="x-post" id="post-n8n-puntos-cuenta">
+                        <div class="d-flex align-items-start">
+                            <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
+                            <div>
+                                <p class="mb-1">
+                                    <span class="fw-bolder me-1">Victor D'José Batista Rojas</span>
+                                    <span class="text-muted">@VictorBatistaDev · Just Now</span>
+                                </p>
+                                <p class="mb-3">
+                                    <strong>🚀 ¡Adiós a la burocracia manual! He automatizado la creación de "Puntos de Cuenta" con n8n y Google Workspace.</strong>
+                                    <br><br> del sistema de gestion de trabajadores de la Fundacion Teatro Teresa Carreno (CRUD) con un workflow inteligente que maneja todo el flujo documental de manera 100% automática.
+                                    <br><br>
+                                    ➡️ ¿Cómo funciona el flujo?
+                                    <ul>
+                                        <li>Activación: El sistema PHP envía un Webhook al registrar un nuevo trabajador o solicitud.</li>
+                                        <li>Generación: n8n busca una plantilla en Google Drive, crea una copia personalizada y actualiza los datos en Google Docs.</li>
+                                        <li>Distribución: El documento se convierte automáticamente a PDF y se envía por Gmail al responsable, listo para su aprobación.</li>
+                                    </ul>
+                                    <br>
+                                    ✅ Resultado: Eliminación total de errores de transcripción, estandarización de documentos y una respuesta inmediata en procesos administrativos críticos.
+                                </p>
+                    
+                                <div class="x-carousel-container ratio ratio-16x9">
+                                    <div id="carouselPostN8N" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-item">
+                                            <video class="d-block w-100 rounded" controls autoplay muted loop playsinline>
+                                                <source src="assets/videos/n8nPuntoCuenta.mp4" type="video/mp4">
+                                                Tu navegador no soporta la etiqueta de video.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="mt-2">
+                                    <a href="#" class="x-hashtag">#n8n</a>
+                                    <a href="#" class="x-hashtag">#Automation</a>
+                                    <a href="#" class="x-hashtag">#Webhooks</a>
+                                    <a href="#" class="x-hashtag">#PHP</a>
+                                    <a href="#" class="x-hashtag">#GoogleWorkspace</a>
+                                    <a href="#" class="x-hashtag">#Efficiency</a>
+                                </div>
+                    
+                                <div class="mt-3 small text-muted">
+                                    <i class="bi bi-chat me-4"></i> 
+                                    <i class="bi bi-arrow-repeat me-4"></i>
+                                    <i class="bi bi-heart me-4"></i>
+                                    <a href="https://github.com/RacokLB/crud_fetch" target="_blank" class="text-muted"><i class="bi bi-github me-1"></i> Ver Repositorio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="x-post" id="post-chatbot-ia-gemini">
                         <div class="d-flex align-items-start">
                             <img class="rounded-circle me-3" style="width: 48px; height: 48px;" src="assets/img/fotoPerfil.jpg" alt="Perfil">
@@ -155,17 +208,17 @@
                                 <p class="mb-3">
                                     <strong>✨ ¡IA conversacional en acción! Creé un Asistente de Soporte 24/7 con n8n y Google Gemini.</strong>
                                     <br><br>
-                                    Desarrollé un **Chatbot avanzado para Telegram** que no solo responde preguntas, sino que gestiona el conocimiento de la empresa (RAG) y escala casos complejos a un agente humano, garantizando siempre la continuidad del servicio.
+                                    Desarrollé un Chatbot avanzado para Telegram que no solo responde preguntas, sino que gestiona el conocimiento de la poliza de seguro medico del Consejo Nacional Electoral de Venezuela (RAG) y escala casos complejos a un agente humano, garantizando siempre la continuidad del servicio.
                                     <br><br>
-                                    ➡️ **El Flujo Inteligente:**
+                                    ➡️ El Flujo Inteligente:
                                     <ul>
-                                        <li>**Canal de Entrada:** Activado por el nodo **Telegram Trigger**.</li>
-                                        <li>**Inteligencia Central:** Uso del **AI Agent** y **Google Gemini Chat Model** (API) para un razonamiento rápido y contextual.</li>
-                                        <li>**Búsqueda RAG:** Implementación del **Simple Vector Store** alimentado por **Embeddings Google Gemini** (`nomic-embed-text` para la base de datos de conocimiento) para garantizar respuestas precisas basadas en la documentación.</li>
-                                        <li>**Escalamiento a Humano:** Lógica condicional (**Switch/If**) para identificar intenciones de soporte y **notificar al equipo** (vía Gmail) mientras confirma la escalada al usuario.</li>
+                                        <li>Canal de Entrada: Activado por el nodo Telegram Trigger.</li>
+                                        <li>Inteligencia Central: Uso del AI Agent y Google Gemini Chat Model (API) para un razonamiento rápido y contextual.</li>
+                                        <li>Búsqueda RAG: Implementación del Simple Vector Store alimentado por Embeddings Google Gemini (nomic-embed-text para la base de datos de conocimiento) para garantizar respuestas precisas basadas en la documentación.</li>
+                                        <li>Escalamiento a Humano: Lógica condicional (Switch/If) para identificar intenciones de soporte y notificar al equipo (vía Gmail) mientras confirma la escalada al usuario.</li>
                                     </ul>
                                     <br>
-                                    ✅ **Ventaja Clave:** Fiabilidad total al migrar de Ollama local a la **Gemini API Key Free Tier**, eliminando problemas de conectividad y ofreciendo escalabilidad inmediata.
+                                    ✅ Ventaja Clave: Fiabilidad total al migrar de Ollama local a la Gemini API Key Free Tier, eliminando problemas de conectividad y ofreciendo escalabilidad inmediata.
                                 </p>
                     
                                 <div class="x-carousel-container ratio ratio-16x9">
@@ -208,11 +261,11 @@
                                 <p class="mb-3">
                                     <strong>¡El futuro de RRHH es AUTOMÁTICO! 🤖 Acabo de implementar un workflow que usa IA para clasificar correos.</strong>
                                     <br><br>
-                                    Desarrollé la **Automatización Inteligente del Flujo de Correspondencia** para la Dirección de Talento Humano del CNE. El objetivo: eliminar la clasificación manual de documentos.
+                                    Desarrollé la Automatización Inteligente del Flujo de Correspondencia para la Dirección de Talento Humano del CNE. El objetivo: eliminar la clasificación manual de documentos.
                                     <br><br>
-                                    ➡️ **El Flujo:** Recibe documentos (PDF/JPG) → **Python** extrae el texto (OCR) → El modelo **Ollama 3.8B** lee y clasifica el destinatario → **n8n** lo recibe y envía al correo correcto. ¡Todo en segundos!
+                                    ➡️ El Flujo: Recibe documentos (PDF/JPG) → Python extrae el texto (OCR) → El modelo Ollama 3.8B lee y clasifica el destinatario → n8n lo recibe y envía al correo correcto. ¡Todo en segundos!
                                     <br><br>
-                                    ✅ **Impacto Clave:** Logré una **Mejora Operativa del 73%**. Pasamos de un tiempo de gestión de **15 minutos** por documento a **solo 4 minutos**, asegurando una distribución precisa. ¡La IA simplificando la burocracia!
+                                    ✅ Impacto Clave: Logré una Mejora Operativa del 73%. Pasamos de un tiempo de gestión de 15 minutos por documento a solo 4 minutos, asegurando una distribución precisa. ¡La IA simplificando la burocracia!
                                 </p>
 
                                 <div class="x-carousel-container ratio ratio-16x9">
@@ -261,13 +314,13 @@
                                 <br class="mb-3">
                                     <strong>¡Ahorrando tiempo a RRHH! ⏱️ Acabo de lanzar una herramienta simple pero PODEROSA.</strong>
                                     <br><br>
-                                    Desarrollé una aplicación en **Streamlit** que automatiza la limpieza y preparación de data para el departamento de RRHH del Consejo Nacional Electoral.
+                                    Desarrollé una aplicación en Streamlit que automatiza la limpieza y preparación de data para el departamento de RRHH del Consejo Nacional Electoral.
                                     <br><br>
-                                    ➡️ **El Desafío:** Tomar un Excel (columna `NOMBRE_COMPLETO`) y separar automáticamente los nombres y apellidos, manejando reglas complejas del idioma (como "de la Cruz", "de los Anegeles", etc.).
+                                    ➡️ El Desafío: Tomar un Excel (columna NOMBRE_COMPLETO) y separar automáticamente los nombres y apellidos, manejando reglas complejas del idioma (como "de la Cruz", "de los Anegeles", etc.).
                                     <br><br>
-                                    ✅ **La Solución:** Usando **Python** y **Pandas**, transformamos un proceso que tomaba horas en una tarea de **segundos**. Sube el archivo, y obtienes la data lista para usar. ¡Cero errores manuales!
+                                    ✅ La Solución: Usando Python y Pandas, transformamos un proceso que tomaba horas en una tarea de segundos. Sube el archivo, y obtienes la data lista para usar. ¡Cero errores manuales!
                                     <br></br>
-                                    ➡️ **Puedes probarla:<a href="assets/dataSinProcesar.xlsx" download class="text-primary me-4 fw-bold"> **DESCARGAR DATA DE PRUEBA** </a>Ahora dale clic <a href="https://separadornombreyapellidos.streamlit.app">**aqui**</a>para redirigirte a la app
+                                    ➡️ Puedes probarla: <a href="assets/dataSinProcesar.xlsx" download class="text-primary me-4 fw-bold"> DESCARGAR DATA DE PRUEBA </a> Ahora dale clic <a href="https://separadornombreyapellidos.streamlit.app"> aqui </a> para redirigirte a la app
                                 </p>
 
                                 <div class="x-carousel-container ratio ratio-16x9">
@@ -318,14 +371,14 @@
                                 <p class="mb-3">
                                     <strong>🚨 ¡INVENTARIO 2.0 CON IA! 🚨 El proyecto de gestión de autopartes acaba de recibir una inyección de inteligencia.</strong>
                                     <br><br>
-                                    He integrado la **API de Gemini** para crear un **"Mecánico Virtual"** que revoluciona el soporte al cliente.
+                                    He integrado la API de Gemini para crear un "Mecánico Virtual" que revoluciona el soporte al cliente.
                                     <br>
-                                    ➡️ **Impacto Inmediato:** Se redujo el tiempo de respuesta a consultas de clientes en un impresionante **40%**. ¡Asistencia experta, instantánea!
+                                    ➡️ Impacto Inmediato: Se redujo el tiempo de respuesta a consultas de clientes en un impresionante 40%. ¡Asistencia experta, instantánea!
                                     <br><br>
-                                    🛠️ **El Stack Full-Stack:**
+                                    🛠️ El Stack Full-Stack:
                                     <br>
-                                    * **Backend Robusto:** Desarrollado con **Python** y **Flask** para manejar la lógica del negocio y el almacenamiento de datos en **MySQL**.
-                                    * **Frontend Intuitivo:** Una interfaz rápida y amigable, construida con **Bootstrap** y **JavaScript** para una excelente experiencia de usuario.
+                                    * Backend Robusto: Desarrollado con Python y Flask para manejar la lógica del negocio y el almacenamiento de datos en MySQL.
+                                    * Frontend Intuitivo: Una interfaz rápida y amigable, construida con Bootstrap y JavaScript para una excelente experiencia de usuario.
                                     <br><br>
                                     Un sistema completo que optimiza inventario y redefine la atención al cliente con el poder de la Inteligencia Artificial.
                                 </p>
@@ -389,7 +442,7 @@
                                     <span class="text-muted">@VictorBatistaDev · 1w</span>
                                 </p>
                                 <p class="mb-3">
-                                    El poder de **Pandas** y **Python** aplicado a finanzas: desarrollé un bot de Backtesting para MT5. Logro: demostró que una estrategia de trading NO era rentable, salvando a mi cliente de pérdidas significativas. La data no miente. 📊
+                                    El poder de Pandas y Python aplicado a finanzas: desarrollé un bot de Backtesting para MT5. Logro: demostró que una estrategia de trading NO era rentable, salvando a mi cliente de pérdidas significativas. La data no miente. 📊
                                 </p>
                                 <div class="x-carousel-container ratio ratio-1x1">
                                     <div id="carouselPost2" class="carousel slide" data-bs-ride="carousel">
@@ -438,7 +491,7 @@
                                     <span class="text-muted">@VictorBatistaDev · 1w</span>
                                 </p>
                                 <p class="mb-3">
-                                    <strong>¡Misión cumplida! 💾 El nuevo Sistema de Gestión Clínica para el servicio médico ya está LISTO.</strong>
+                                    <strong>¡Misión cumplida! 💾 El nuevo Sistema de Gestión Clínica para el servicio médico del Teatro Teresa Carreno ya está LISTO.</strong>
                                     <br><br>
                                     Desarrollé una aplicación web robusta y completa usando <strong>PHP, MySQL, Bootstrap y JavaScript</strong> que transforma por completo el registro de pacientes.
                                     <br><br>
@@ -513,13 +566,13 @@
                                     <!-- Contenido adaptado para post -->
                                     <strong>¡Transformación Digital Full-Stack! 🏥 Lanzamiento de un Sistema de Gestión de Funcionarios robusto.</strong>
                                     <br><br>
-                                    Este proyecto en **PHP y MySQL** centraliza y organiza la data de personal con un enfoque en usabilidad y precisión:
+                                    Este proyecto en PHP y MySQL centraliza y organiza la data de personal con un enfoque en usabilidad y precisión:
                                     <br><br>
-                                    ⚙️ **Carga Inteligente:** Implementé un formulario **multi-paso (6 etapas)** con barra de progreso y validación en cada sección (Identificación, Personal, Laboral, etc.), ¡asegurando datos limpios desde el origen!
+                                    ⚙️ Carga Inteligente: Implementé un formulario multi-paso (6 etapas) con barra de progreso y validación en cada sección (Identificación, Personal, Laboral, etc.), ¡asegurando datos limpios desde el origen!
                                     <br><br>
-                                    👨‍👩‍👧‍👦 **Gestión de Relaciones:** Desarrollé un módulo Modal dinámico para el registro instantáneo de familiares/parientes, utilizando manejo avanzado de arrays (`parientesArray`) para asociar la data correctamente.
+                                    👨‍👩‍👧‍👦 Gestión de Relaciones: Desarrollé un módulo Modal dinámico para el registro instantáneo de familiares/parientes, utilizando manejo avanzado de arrays (parientesArray) para asociar la data correctamente.
                                     <br><br>
-                                    📊 **Reportes 360° al Instante:** Creé tres módulos de consulta (Registros, Estadísticas por Sede, Personal & Parientes) accesibles vía modales, ofreciendo una visión **Data-Driven** sin esperas.
+                                    📊 Reportes 360° al Instante: Creé tres módulos de consulta (Registros, Estadísticas por Sede, Personal & Parientes) accesibles vía modales, ofreciendo una visión Data-Driven sin esperas.
                                 </p>
 
                                 <!-- Carrusel de Imágenes (usando los placeholders del snippet) -->
