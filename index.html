@@ -216,26 +216,39 @@
                                     <span class="text-muted">@VictorBatistaDev · 30m</span>
                                 </p>
                                 <p class="mb-3">
-                                    <strong>✨ ¡IA conversacional en acción! Creé un Asistente de Soporte 24/7 con n8n y Google Gemini.</strong>
+                                    <strong>✨ ¡IA conversacional en acción! Creé un Asistente de Soporte 24/7 con n8n y Ollama.</strong>
                                     <br><br>
                                     Desarrollé un Chatbot avanzado para Telegram que no solo responde preguntas, sino que gestiona el conocimiento de la poliza de seguro medico del Consejo Nacional Electoral de Venezuela (RAG) y escala casos complejos a un agente humano, garantizando siempre la continuidad del servicio.
                                     <br><br>
                                     ➡️ El Flujo Inteligente:
                                     <ul>
                                         <li>Canal de Entrada: Activado por el nodo Telegram Trigger.</li>
-                                        <li>Inteligencia Central: Uso del AI Agent y Google Gemini Chat Model (API) para un razonamiento rápido y contextual.</li>
-                                        <li>Búsqueda RAG: Implementación del Simple Vector Store alimentado por Embeddings Google Gemini (nomic-embed-text para la base de datos de conocimiento) para garantizar respuestas precisas basadas en la documentación.</li>
-                                        <li>Escalamiento a Humano: Lógica condicional (Switch/If) para identificar intenciones de soporte y notificar al equipo (vía Gmail) mientras confirma la escalada al usuario.</li>
+                                        <li>Canal de Entrada para documentos: Activado por el nodo Google Drive Trigger.</li>
+                                        <li>Inteligencia Central: Uso del AI Agent y llama 3.1:8b (local) para un razonamiento rápido y contextual manteniendo la privacidad de la data.</li>
+                                        <li>Búsqueda RAG: Implementación del Supa Base Vector Store alimentado por Embedding (bge-m3:567m para la base de datos vectorial incluyendo relational data para busquedas mas eficientes) para garantizar respuestas precisas basadas en la documentación.</li>
+                                        <li>Escalamiento a Humano: Lógica condicional (Switch/If) para identificar error al recibir el output del modelo y notificar al equipo (vía Telegram)</li>
                                     </ul>
                                     <br>
-                                    ✅ Ventaja Clave: Fiabilidad total al migrar de Ollama local a la Gemini API Key Free Tier, eliminando problemas de conectividad y ofreciendo escalabilidad inmediata.
+                                    ✅ Ventaja Clave: Fiabilidad de la data trabajando con modelos locales que cumplen con creces la tarea , cumpliendo asi con lo solicitado por los directores del CNE, eliminando problemas de conectividad y ofreciendo escalabilidad inmediata.
                                 </p>
                     
                                 <div class="x-carousel-container ratio ratio-16x9">
                                     <div id="carouselPostChatbot" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="assets/img/chatBotTelegramN8N.png" class="d-block w-100" alt="Diagrama de flujo de n8n con Gemini, RAG y Escalado a Humano">
+                                                <img src="assets/img/supportChatBotTelegram.png" class="d-block w-100" alt="Diagrama de flujo de n8n con Ollama, RAG y manejo de errores">
+                                            </div>
+                                            <div>
+                                                <video class="d-block w-100 rounded" controls autoplay muted loop playsinline>
+                                                    <source src="assets/videos/supportChatBot.mp4" type="video/mp4">
+                                                    Tu navegador no soporta la etiqueta de video.
+                                                </video>
+                                            </div>
+                                            <div>
+                                                <video class="d-block w-100 rounded" controls autoplay muted loop playsinline>
+                                                    <source src="assets/videos/supportChatBot1.mp4" type="video/mp4">
+                                                    Tu navegador no soporta la etiqueta de video.
+                                                </video>
                                             </div>
                                         </div>
                                         </div>
@@ -658,6 +671,8 @@
                                                 <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="18" aria-label="Certificado 19"></button>
                                                 <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="19" aria-label="Certificado 20"></button>
                                                 <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="20" aria-label="Certificado 21"></button>
+                                                <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="21" aria-label="Certificado 22"></button>
+                                                <button type="button" data-bs-target="#carouselCertificados" data-bs-slide-to="22" aria-label="Certificado 23"></button>
                                             </div>
 
                                             <div class="carousel-inner">
