@@ -1,74 +1,71 @@
-# portafolioVictor
+# Portfolio Victor
 
-# Victor D'José Batista Rojas | Desarrollador Full Stack & Automatizador de Procesos
+AUTOMATION & FULL STACK ENGINEER Specialist in Process Optimization (Finance/HR) | Python (Flask), n8n & Gemini API
 
-¡Hola! Soy Victor D'José, un profesional híbrido que fusiona la lógica de la **Contaduría Pública** con el poder del código. Mi enfoque se centra en el **análisis de datos** y la **automatización de procesos administrativos y financieros** para transformar problemas de negocio en soluciones de software eficientes.
-
-Actualmente, me especializo en desarrollar soluciones **Full Stack** robustas e integrar la **Inteligencia Artificial** (Ollama, Gemini API) en flujos de trabajo críticos.
+Full Stack Engineer and Process Automator with a unique background in business and financial analysis (Public Accounting). Currently pursuing Systems Engineering, my core value lies in identifying administrative or financial bottlenecks and translating them directly into robust software solutions (Python/Flask, PHP, MySQL) and intelligent workflows (n8n, Gemini API).
 
 ---
 
-## 🛠️ Tecnologías y Habilidades Clave
+## 🛠️ Key Technologies and Skills
 
-Mi stack se centra en herramientas que permiten la construcción rápida de backends, la manipulación avanzada de datos y la automatización de flujos de trabajo complejos.
+My focus is on generating quantifiable and tangible value through the automation of key processes, optimizing results and operational efficiencies.
 
-| Categoría | Tecnologías Específicas |
-| :--- | :--- |
-| **Backend & Core** | **Python**, **PHP**, Flask, MySQL, SQLAlchemy, JavaScript (ES6+) |
-| **Data Science & ML/AI** | **Pandas**, Streamlit, **Gemini API**, **Ollama** (llama 3.8B), OCR, `backtesting.py` |
-| **Automatización** | **n8n** (Workflow Engine), Git, GitHub, Insomnia |
-| **Frontend & UX** | Bootstrap, JQuery, Charts.js |
-| **Negocio & Finanzas** | Contaduría Pública, MetaTrader 5 (MT5), Trading, Fintech |
-
----
-
-## 🚀 Proyectos Destacados (Mi "Feed" de Innovación)
-
-A continuación, se presentan algunos proyectos clave que demuestran mi capacidad para resolver problemas de negocio con tecnología, con un enfoque en la eficiencia y la reducción de errores manuales.
-
-### 1. Sistema de Gestión Inteligente de Correspondencia (HR-CNE)
-**Un workflow que utiliza IA para clasificar documentos, llevando la automatización de RRHH al siguiente nivel.**
-* **Objetivo:** Eliminar la clasificación manual de documentos de correspondencia recibida.
-* **Stack:** Python (OCR para extracción de texto), **Ollama 3.8B** (Modelo de Clasificación), **n8n** (Motor de Workflow).
-* **Logro Cuantificable:** **Mejora Operativa del 73%**. Reducción del tiempo de gestión por documento de **15 minutos a solo 4 minutos**.
-
-### 2. Sistema Full-Stack de Inventario y Chatbot con IA
-**Sistema de gestión de inventario para autopartes con un "Mecánico Virtual" integrado.**
-* **Objetivo:** Optimizar el inventario y proporcionar soporte al cliente instantáneo y experto.
-* **Stack:** **Python (Flask)**, MySQL, Bootstrap, JavaScript, **API de Gemini** (para el chatbot de consultas técnicas).
-* **Logro Cuantificable:** **Aumento del 40% en la eficiencia de atención al cliente**, gracias a las respuestas instantáneas del Chatbot.
-* **[Ver Código](https://github.com/RacokLB/nombre-del-repo-inventario)** 
-
-### 3. Herramienta de Limpieza de Data para Nómina (Streamlit)
-**Aplicación web para estandarizar y separar nombres y apellidos complejos en segundos.**
-* **Objetivo:** Automatizar la limpieza y preparación de grandes volúmenes de data de funcionarios (columna `NOMBRE_COMPLETO`) para el departamento de nóminas.
-* **Stack:** **Python**, **Pandas** (manipulación de datos), **Streamlit** (Interfaz de usuario).
-* **Logro Cuantificable:** Proceso que tomaba horas se completó en **segundos**, eliminando errores manuales y asegurando la integridad de la data para RRHH.
-* **[Ver Código](https://github.com/RacokLB/separador-nombres)**  
-
-### 4. Bot de Backtesting Financiero (Fintech)
-**Herramienta de análisis de datos para validar la rentabilidad de estrategias de trading en MT5.**
-* **Objetivo:** Proporcionar un análisis riguroso, basado en datos históricos, sobre la viabilidad de estrategias de inversión.
-* **Stack:** **Python**, **Pandas**, `backtesting.py`, MetaTrader 5 (MT5).
-* **Resultado:** Mitigación de riesgos y **prevención de pérdidas financieras significativas** al demostrar la no rentabilidad de una estrategia propuesta.
-
-### 5. Sistema de Gestión Clínica y de Funcionarios (PHP/MySQL)
-**Dos sistemas Full-Stack para gestión de personal y salud operacional.**
-* **Tecnologías:** **PHP**, **MySQL**, Bootstrap, JavaScript.
-* **Características:** Formularios multi-paso de 6 etapas con validación estricta (Gestión de Funcionarios) y Dashboards para la generación de métricas de rendimiento (Gestión Clínica).
-* **Innovación:** Integración planificada de un **Agente Médico** con LLM (`llama 3.8b`) para sugerencias de diagnóstico y pronóstico.
+| Category             | Specific Technologies                                                         |
+| :------------------- | :---------------------------------------------------------------------------- |
+| Backend & Core       | Python, PHP, Flask, MySQL, SQLAlchemy, JavaScript (ES6+)                      |
+| Data Science & ML/AI | Pandas, Streamlit, **Gemini API**, Ollama (llama 3.8B), OCR, `backtesting.py` |
+| Automation           | n8n (Workflow Engine), Git, GitHub, Insomnia                                  |
+| Frontend & UX        | Bootstrap, JQuery, Charts.js                                                  |
+| Business & Finance   | Public Accounting, MetaTrader 5 (MT5), Trading, Fintech                       |
 
 ---
 
-## 📞 Contacto y Perfiles
+JUNIOR PROGRAMMER (HR & Automation) National Electoral Council (CNE), Caracas | April 2024 - Present
 
-Conéctate conmigo o descarga mi CV para más detalles sobre mi experiencia y formación:
+I led the creation and maintenance of the backend logic (PHP and MySQL, MVC architecture) for personnel registration systems.
+Quantifiable Achievement: Reduced manual registration time from 1.2 hours to just 6 minutes and decreased manual errors by 80%.
+Developed Python scripts (Pandas, Streamlit) for cleaning and structuring critical official data, optimizing personnel management.
+Participated in the development of software solutions for the optimization and automation of critical internal HR processes.
 
-| Plataforma | Enlace |
-| :--- | :--- |
-| **LinkedIn** | [Victor D'José Batista Rojas](https://www.linkedin.com/in/victordjosebatistarojas) |
-| **GitHub** | [RacokLB](https://github.com/RacokLB) |
-| **Correo** | `inversionesLowBoy@gmail.com` |
-| **Teléfono** | `+58 424-288-5368` |
-| **Descargar CV** | [Curriculum Victor.pdf](assets/CurriculumVictor.pdf)
-```
+PROCESS ANALYST / ELECTORAL TECHNICAL PROFESSIONAL National Electoral Council (CNE), Caracas | 2022 - 2024
+Audited accounting records and analyzed manual processes to identify bottlenecks and risk areas.
+Used my accounting knowledge to identify critical automation needs in administrative workflows, laying the foundation for subsequent development projects.
+Hybrid Impact: Applied technical and accounting knowledge in the development of the SICOFPE system (income and expense statement for political actors) to ensure data integrity and regulatory compliance.
+
+FEATURED PROJECTS
+
+Intelligent Support Assistant (Telegram Chatbot)
+Description: Creation of a complete workflow in n8n that uses the Google Gemini API for a conversational chatbot with advanced RAG (Retrieval-Augmented Generation) and human scaling capabilities.
+Architecture: n8n, Google Gemini API (gemini-2.5-flash), AI Agent, Simple Vector Store (for corporate knowledge), and conditional logic for routing and support team email notification.
+Impact: Replacement of a local service (Ollama) with a cloud service (Gemini), ensuring scalability, high availability, and zero latency in support response.
+
+Intelligent Correspondence Flow Automation (HR-CNE)
+Workflow developed with n8n and Python (OCR) that uses the LLM Llama3:8B to classify and distribute correspondence automatically.
+Achievement: 73% Operational Improvement, reducing management time from 15 minutes to just 4 minutes per document.
+
+Inventory Management and AI Queries (Auto Parts)
+Full Stack application (Flask and MySQL) that integrates the Gemini API to automate technical customer queries.
+Includes Design, Development, Containerization with Docker, and Cloud Deployment (PaaS) with CI/CD pipeline.
+Achievement: Increased customer service efficiency by 40%.
+
+Official Management System (PHP/MySQL)
+Robust application that centralizes and organizes personnel and relatives' data, focused on data integrity and precision.
+Achievement: Decrease in registration time from 34 minutes to just 5 minutes.
+
+Complex Name and Surname Separator
+Web application created and deployed in Streamlit to automate data cleaning and preparation for the payroll department.
+Achievement: Decreased manual cleaning time from 3 hours (for 2,000 records) to just 12 seconds.
+
+---
+
+📞 Contact and Profiles
+
+Connect with me or download my CV for more details on my experience and training:
+
+| Platform    | Link                                                                               |
+| :---------- | :--------------------------------------------------------------------------------- |
+| LinkedIn    | [Victor D'José Batista Rojas](https://www.linkedin.com/in/victordjosebatistarojas) |
+| GitHub      | [RacokLB](https://github.com/RacokLB)                                              |
+| Email       | `inversionesLowBoy@gmail.com`                                                      |
+| Phone       | `+58 424-288-5368`                                                                 |
+| Download CV | [Curriculum Victor.pdf](assets/CurriculumVictor.pdf)                               |
